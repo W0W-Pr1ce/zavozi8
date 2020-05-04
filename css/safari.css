@@ -1,0 +1,38 @@
+/* Safari specific styles - also affects Chrome - add within curly brackets */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	/* Fixing bold text alignment CUFON fix - Bold and regular fonts have different alignment, hack each browser to align */
+	h3 strong{ position:relative; /*top:1px !important;*/ }
+	.hotels_blurb h3 strong{ position:relative; /*top:1px;*/ }
+	.internal_ads h3 strong{ position:relative; top:0 !important; }
+	.promo_ad h3 strong{ position:relative; top:0 !important; }
+	h2 strong{ top:0 !important; } 
+	/* topnav */
+	.header .right li.language {
+	top:-6px;
+	}
+	
+	/*.listing .listing_content {
+		float:none;
+		width:auto;
+		padding:0;
+		margin-top:25px;
+	}
+	
+	.listing .listing_image {
+		margin:30px;
+	}*/
+	
+	#switch_area {
+		margin-top:20px;
+	}
+	
+	#booking_button.round input {
+		margin-top:4px !important;
+	}
+	
+	.footer {
+    margin:35px auto 50px auto;
+  }
+	
+}
